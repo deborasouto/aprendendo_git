@@ -1,0 +1,20 @@
+Um versionamento é um software que tem a finalidade de gerenciar diferentes versões no desenvolvimento de um documento 
+qualquer. Esses sistemas são comumente utilizados no desenvolvimento de software para controlar as diferentes versões, 
+histórico e desenvolvimento dos códigos-fontes e também de documentação. O VCS permite que você reverta o arquivo 
+para o estado anterior, compare as mudanças ao longo do tempo, veja quem modificou pela última vez algo que pode 
+estar causando um problema, quem introduziu este problema e quando começou. Usar um VCS também significa que se um estrago acontecer ou no caso de perda de arquivos, por exemplo, 
+você possa facilmente os recuperar. 
+
+Comandos basicos:
+
+Criar pasta: mkdir nomedapasta
+Criar arquivo no terminal da pasta: touch nomedoarquivo
+Começar uma pasta no GIT: git init
+Saber o status dos arquivos: git status
+Propor mudanças: git add *
+Realizar um commit localmente: git commit -m "mensagem"
+Ver o que foi commitado: git log 
+Ver o que foi alterado: git diff
+Copiar um repositório existente: git clone url
+Começar a monitorar um projeto existente com GIT: cd /seu/diretorio/que/deseja/criargit init
+Enviar os arquivos modificados ao remoto do projeto: git push origin nomedabranch
